@@ -1,0 +1,23 @@
+nav {
+    background-color: black;
+    top: 0;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+nav a:hover {
+    color: rgb(227, 213, 241);
+}

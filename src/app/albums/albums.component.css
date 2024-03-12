@@ -1,0 +1,28 @@
+.albums-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.album-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+}
+
+.album-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.album-card p {
+    font-size: 16px;
+    color: #666;
+}
