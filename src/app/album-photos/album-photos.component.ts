@@ -3,11 +3,13 @@ import { Photo } from '../models';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { AlbumsService } from '../albums.service';
 import { CommonModule, Location } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-album-photos',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, HttpClientModule],
+  providers: [AlbumsService],
   templateUrl: './album-photos.component.html',
   styleUrl: './album-photos.component.css',
 })

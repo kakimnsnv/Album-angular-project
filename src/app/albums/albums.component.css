@@ -10,6 +10,10 @@
     border-radius: 10px;
     overflow: hidden;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ccc;
 }
 
 .album-card img {
@@ -20,9 +24,24 @@
 .album-card h2 {
     font-size: 20px;
     margin: 10px 0;
+    flex-grow: 1;
 }
 
 .album-card p {
     font-size: 16px;
     color: #666;
+}
+
+.album-card .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.album-id{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
 }
